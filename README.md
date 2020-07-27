@@ -3,6 +3,7 @@ This is a simple PHP router intended to manage URL rewriting and URL parsing rou
 - You will find in this document the following : 
 	- A quick start guide
 	- An in-depth description
+	- A guide on how to create a new routine
 	- A list of planned modifications
 
 ### Quick start guide
@@ -17,7 +18,7 @@ After having downloaded to project folder, do the following :
 
 ### In-depth description
 The router, after having been initialized, can be fed a URL formatted like so : `firstComponent/Second/.../LastComponent` <br>
-The parser loops through the URL by singeling out all the components, and executing a *Routing* on every one of them. As of the 27th of July 2020, this projects has only got one (default) routine, the *Colon routine* that interprets URL formatted like this : `component1/component2/component3:value1/.../lastCmp:lastValue` and returns the following array :
+The parser loops through the URL by singeling out all the components, and executing a *Routing* on every one of them. As of the 27th of July 2020, this projects has only got one (default) routine, the *Colon Routine* that interprets URLs formatted like so : `component1/component2/component3:value1/.../lastCmp:lastValue` and returns the following array :
 - Module 	: 	component1
 - View		: 	component2
 - Params	:
