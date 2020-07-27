@@ -1,9 +1,9 @@
 # Simple PHP Router <img src="https://img.shields.io/badge/license-MIT-green" alt="Licence - MIT">
 This is a simple PHP router intended to manage URL rewriting and URL parsing routines.
 You will find in this document the following : 
-	- A quick start guide
-	- An in-depth description
-	- A list of planned modifications
+	-A quick start guide
+	-An in-depth description
+	-A list of planned modifications
 
 ### Quick guide
 After having downloaded to project folder, do the following : 
