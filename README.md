@@ -1,3 +1,3 @@
 # php-router
-# # By gXiah
+## By gXiah
 A simple PHP router
