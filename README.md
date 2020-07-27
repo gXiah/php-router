@@ -1,4 +1,4 @@
-# Simple PHP Router
+# Simple PHP Router [something](https://img.shields.io/badge/license-MIT-green)
 This is a simple PHP router intended to manage URL rewriting and URL parsing routines.
 
 ### Quick guide
