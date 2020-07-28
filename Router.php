@@ -9,12 +9,13 @@ class Router{
 
 	public function __construct(){
 
+		// echo "Router ON";
 		$this->parser = new Parser();
 
 	}
 
 
-	public function parse($url , $parseRoutine=Parser::DEFAULT_ROUTINE):Route{
+	public function parse($url , $parseRoutine=Parser::DEFAULT_ROUTINE){
 
 		return new Route( $this->parser->parse($url,$parseRoutine) );
 
