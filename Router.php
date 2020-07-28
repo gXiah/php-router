@@ -9,7 +9,6 @@ class Router{
 
 	public function __construct(){
 
-		// echo "Router ON";
 		$this->parser = new Parser();
 
 	}
