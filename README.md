@@ -1,4 +1,4 @@
-# Simple PHP Router <img src="https://img.shields.io/badge/license-MIT-green" alt="Licence - MIT"> <img src="https://img.shields.io/badge/Target%20Level-Beginner-brightgreen" alt="Target Level - Beginner">
+# Simple PHP Router <img src="https://img.shields.io/badge/license-MIT-green" alt="Licence - MIT"> <img src="https://img.shields.io/badge/Target%20Level-Beginner-green" alt="Target Level - Beginner">
 This is a simple PHP router intended to manage URL rewriting and URL parsing routines.
 - You will find in this document the following : 
 	- A quick start guide
