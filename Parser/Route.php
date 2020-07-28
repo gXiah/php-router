@@ -1,11 +1,14 @@
 <?php
 
+/**
+*	Route object (no use except for data storage)
+*/
+
 class Route{
 
-	private $data;
+	private $data;// Route data
 
 	public function __construct($initData){
-		// echo "Route created";
 		$this->data = $initData;
 	}
 
